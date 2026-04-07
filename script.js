@@ -118,6 +118,7 @@
     dom.counters.forEach((counter) => {
       const targetAttr = counter.dataset.counter;
       const delay = parseInt(counter.dataset.delay) || 0;
+      const duration = parseInt(counter.dataset.duration) || 1100;
       const target = parseInt(targetAttr);
       const suffix = targetAttr.replace(/[0-9]/g, "");
 
@@ -126,7 +127,6 @@
       }
 
       let value = 0;
-      const duration = 1100;
       const step = Math.max(1, Math.floor(target / (duration / 16)));
 
       const tick = () => {

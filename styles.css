@@ -808,3 +808,67 @@ p {
     grid-template-columns: 1fr;
   }
 }
+
+/* ==========================================================================
+   High-Resolution & Ultra-Wide Displays (2K, 4K, 8K)
+   ========================================================================== */
+
+/* 2K Displays (QHD) - Starting from ~2000px */
+@media (min-width: 2000px) {
+  :root {
+    --container: min(1600px, 90vw);
+    --header-height: 100px;
+  }
+
+  html {
+    font-size: 18px; /* Scale up everything slightly */
+  }
+
+  h1 {
+    font-size: clamp(3rem, 7vw, 6rem);
+  }
+
+  h2 {
+    font-size: clamp(2.4rem, 5vw, 4.5rem);
+  }
+}
+
+/* 4K Displays (UHD) - Starting from ~3200px */
+@media (min-width: 3200px) {
+  :root {
+    --container: min(2400px, 85vw);
+    --header-height: 140px;
+  }
+
+  html {
+    font-size: 24px; /* Significant scale up for 4K visibility */
+  }
+
+  body {
+    line-height: 1.7;
+  }
+
+  .section {
+    padding: 10rem 0;
+  }
+}
+
+/* 8K Displays (FUHD) - Starting from ~5000px */
+@media (min-width: 5000px) {
+  :root {
+    --container: min(3800px, 80vw);
+    --header-height: 200px;
+  }
+
+  html {
+    font-size: 36px; /* Massive scale up for 8K readability */
+  }
+
+  .section {
+    padding: 15rem 0;
+  }
+
+  .hero-grid {
+    gap: 6rem;
+  }
+}

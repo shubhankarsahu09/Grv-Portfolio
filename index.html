@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xaurav Motion | Senior Video Editor Portfolio</title>
+  <meta
+    name="description"
+    content="Professional portfolio for Xaurav, an experienced video editor specializing in cinematic storytelling, branded campaigns, social reels, and documentary post-production."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+  <div class="site-noise"></div>
+  <div id="top" style="position: absolute; top: 0; left: 0;"></div>
+  <header class="header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top">
+        <span class="brand-mark">G</span>
+        <span class="brand-text">Xaurav <em>Motion</em></span>
+      </a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn-small" href="#contact">Book A Call</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="hero-gradient"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Senior Video Editor</p>
+          <h1>Editing stories that make brands impossible to ignore.</h1>
+          <p class="lead">
+            2+ years of experience in delivering commercial films, short documentaries, social campaigns, and high-performance reels for startups,
+            agencies, and global creators.
+          </p>
+          <div class="hero-actions">
+            <a href="#work" class="btn">View Showreel Projects</a>
+            <a href="#contact" class="btn btn-ghost">Start A Project</a>
+          </div>
+          <ul class="hero-stats">
+            <li>
+              <strong data-counter="120+">0</strong>
+              <span>Projects Delivered</span>
+            </li>
+            <li>
+              <strong data-counter="10+">0</strong>
+              <span>Brand Collaboration</span>
+            </li>
+            <li>
+              <strong data-counter="95">0</strong>
+              <span>On-Time Delivery %</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero-panel reveal delay-1">
+          <div class="hero-media-card">
+            <p class="panel-title">Current Showreel</p>
+            <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=1200&q=80" alt="Video editing setup" loading="lazy" />
+            <div class="media-meta">
+              <span>4K Master</span>
+              <span>Color Graded</span>
+              <span>Sound Designed</span>
+            </div>
+          </div>
+          <div class="hero-floating-card">
+            <p>Latest Campaign Performance</p>
+            <strong>12.6M views</strong>
+            <small>Short-form performance bundle — 30-day report</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trusted section">
+      <div class="container">
+        <p class="trusted-label reveal">Trusted by teams that move fast:</p>
+        <div class="trusted-grid reveal delay-1">
+          <span>VIEWS TO CLIENTS</span>
+          <span>JAKE TRINDER</span>
+          <span>HAZIZ DIGITAL</span>
+          <span>NON-STOP-BRANDING</span>
+          <span>CONCEPT CULTURE</span>
+          <span>TRITON</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Featured Work</p>
+          <h2>Selected edits across brand films, reels, and long-form storytelling.</h2>
+        </div>
+
+        <div class="work-controls reveal delay-1">
+          <div class="chips" role="tablist" aria-label="Filter projects">
+            <button class="chip active" data-filter="all" role="tab">All</button>
+            <button class="chip" data-filter="commercial" role="tab">Commercial</button>
+            <button class="chip" data-filter="social" role="tab">Social</button>
+            <button class="chip" data-filter="documentary" role="tab">Documentary</button>
+            <button class="chip" data-filter="music" role="tab">Music</button>
+          </div>
+          <div class="search-wrap">
+            <input type="search" id="project-search" placeholder="Search project by title or client" aria-label="Search projects" />
+          </div>
+        </div>
+
+        <div id="project-grid" class="project-grid"></div>
+
+
+
+        <div class="project-actions reveal">
+          <button id="load-more" class="btn btn-ghost">Load More Projects</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-split" id="services">
+      <div class="container split-grid">
+        <div class="split-copy reveal">
+          <p class="eyebrow">Services</p>
+          <h2>End-to-end post-production support for modern content teams.</h2>
+          <p>
+            I edit with narrative intent and platform strategy in mind, so every cut supports your objective: audience retention,
+            conversion, and brand consistency.
+          </p>
+        </div>
+
+        <div class="service-cards">
+          <article class="service-card reveal delay-1">
+            <h3>Brand Campaign Editing</h3>
+            <p>Polished short films and ad creatives with cinematic pacing, clean transitions, and platform-specific versions.</p>
+          </article>
+          <article class="service-card reveal delay-2">
+            <h3>Short-Form Reel Packages</h3>
+            <p>High-volume vertical edits with hooks, subtitles, motion graphics, and A/B format variants.</p>
+          </article>
+          <article class="service-card reveal delay-3">
+            <h3>Long-Form Storytelling</h3>
+            <p>Podcast episodes, case-study edits, and documentary timelines built for emotional continuity and watch time.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Workflow</p>
+          <h2>A reliable process that keeps stakeholders aligned from rough cut to final delivery.</h2>
+        </div>
+        <ol class="timeline">
+          <li class="reveal">
+            <h3>Discovery + Direction</h3>
+            <p>Creative brief alignment, references, messaging priorities, and audience intent map.</p>
+          </li>
+          <li class="reveal delay-1">
+            <h3>Assembly + Story Pass</h3>
+            <p>First narrative cut with structural pacing, music bed, and edit rhythm locked.</p>
+          </li>
+          <li class="reveal delay-2">
+            <h3>Design + Audio Polish</h3>
+            <p>Motion graphics, subtitles, color balancing, SFX layering, and voice clarity treatment.</p>
+          </li>
+          <li class="reveal delay-3">
+            <h3>Master + Platform Export</h3>
+            <p>Final render delivery with versioned exports for ads, reels, YouTube, and internal showcase.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section tools-section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Toolstack</p>
+          <h2>Production-ready across industry-standard editing and finishing tools.</h2>
+        </div>
+
+        <div class="tool-bars">
+          <div class="tool reveal">
+            <span>After Effects</span>
+            <div class="bar"><i style="--level:96%"></i></div>
+          </div>
+          <div class="tool reveal delay-1">
+            <span>Adobe Premiere Pro</span>
+            <div class="bar"><i style="--level:89%"></i></div>
+          </div>
+          <div class="tool reveal delay-2">
+            <span>DaVinci Resolve</span>
+            <div class="bar"><i style="--level:85%"></i></div>
+          </div>
+          <div class="tool reveal delay-3">
+            <span>Audition + RX Cleanup</span>
+            <div class="bar"><i style="--level:82%"></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Client Feedback</p>
+          <h2>Trusted editing partner for founders, agencies, and creator-led teams.</h2>
+        </div>
+        <div class="testimonial-shell reveal delay-1" id="testimonial-shell"></div>
+      </div>
+    </section>
+
+
+
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">Let's Collaborate</p>
+          <h2>Need a senior editor who can deliver fast without losing storytelling quality?</h2>
+          <p>
+            Share your project goals, timeline, and preferred content formats. I usually reply within 12 hours with a clear plan and
+            estimate.
+          </p>
+          <ul>
+            <li>Email: <a href="mailto:gk722133@gmail.com">gk722133@gmail.com</a></li>
+            <li>Location: Bihar, India</li>
+          </ul>
+        </div>
+
+        <form 
+          id="contact-form" 
+          class="contact-form reveal delay-1" 
+          novalidate
+        >
+          <label>
+            Name
+            <input type="text" id="name" name="name" placeholder="Your full name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" id="email" name="email" placeholder="name@company.com" required />
+          </label>
+          <label>
+            Project Type
+            <select id="type" name="type" required>
+              <option value="">Select one</option>
+              <option value="brand">Brand Campaign</option>
+              <option value="reels">Reels Package</option>
+              <option value="longform">Long-Form Edit</option>
+              <option value="retainer">Monthly Retainer</option>
+            </select>
+          </label>
+          <label>
+            Brief
+            <textarea id="message" name="message" rows="5" placeholder="Tell me your goals, timeline, and expected deliverables." required></textarea>
+          </label>
+          <button type="submit" class="btn">Send Project Brief</button>
+          <p id="form-message" class="form-message" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-wrap">
+      <p>&copy; <span id="year"></span> Xaurav Motion. Crafted for high-impact visual storytelling.</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <dialog id="project-modal" class="modal">
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close" aria-label="Close">&times;</button>
+      <h3 id="modal-title"></h3>
+      <p id="modal-client"></p>
+      <img id="modal-image" src="" alt="Project preview" />
+      <p id="modal-description"></p>
+      <ul id="modal-meta"></ul>
+    </div>
+  </dialog>
+
+  <script src="project-library.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

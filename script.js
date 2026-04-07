@@ -7,7 +7,7 @@
   };
 
   // Replace with your EmailJS keys from https://dashboard.emailjs.com/
-  const EMAILJS_PUBLIC_KEY = "RNmSxDKMKZAPehcR2"; 
+  const EMAILJS_PUBLIC_KEY = "RNmSxDKMKZAPehcR2";
   const EMAILJS_SERVICE_ID = "service_5vycnpm";
   const EMAILJS_TEMPLATE_ID = "template_83fddbv";
 

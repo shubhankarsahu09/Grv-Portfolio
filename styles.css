@@ -740,12 +740,14 @@ p {
   from {
     transform: scaleX(0);
   }
+
   to {
     transform: scaleX(1);
   }
 }
 
 @media (max-width: 1030px) {
+
   .hero-grid,
   .split-grid,
   .contact-grid {
@@ -821,7 +823,8 @@ p {
   }
 
   html {
-    font-size: 18px; /* Scale up everything slightly */
+    font-size: 18px;
+    /* Scale up everything slightly */
   }
 
   h1 {
@@ -841,7 +844,8 @@ p {
   }
 
   html {
-    font-size: 24px; /* Significant scale up for 4K visibility */
+    font-size: 24px;
+    /* Significant scale up for 4K visibility */
   }
 
   body {
@@ -861,7 +865,8 @@ p {
   }
 
   html {
-    font-size: 36px; /* Massive scale up for 8K readability */
+    font-size: 36px;
+    /* Massive scale up for 8K readability */
   }
 
   .section {

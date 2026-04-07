@@ -117,6 +117,7 @@
   const animateCounters = () => {
     dom.counters.forEach((counter) => {
       const targetAttr = counter.dataset.counter;
+      const delay = parseInt(counter.dataset.delay) || 0;
       const target = parseInt(targetAttr);
       const suffix = targetAttr.replace(/[0-9]/g, "");
 
@@ -139,7 +140,11 @@
         requestAnimationFrame(tick);
       };
 
-      requestAnimationFrame(tick);
+      if (delay > 0) {
+        setTimeout(() => requestAnimationFrame(tick), delay);
+      } else {
+        requestAnimationFrame(tick);
+      }
     });
   };
 

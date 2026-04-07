@@ -27,8 +27,8 @@
     {
       quote:
         "Fast turnarounds, clean communication, and edits that actually understand audience behavior. That combination is rare.",
-      name: "Loda Bhaat",
-      role: "Growth Strategist, Atlas Creators",
+      name: "Jake Trinder",
+      role: "Youtuber",
     },
     {
       quote:

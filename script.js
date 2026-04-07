@@ -21,19 +21,19 @@
     {
       quote:
         "Xaurav restructured our messy footage into a sharp campaign that doubled completion rate in under three weeks.",
-      name: "Maya Kapoor",
+      name: "Yuraj Singh",
       role: "Creative Lead, NeonPix",
     },
     {
       quote:
         "Fast turnarounds, clean communication, and edits that actually understand audience behavior. That combination is rare.",
-      name: "Daniel Chen",
+      name: "Loda Bhaat",
       role: "Growth Strategist, Atlas Creators",
     },
     {
       quote:
         "We trusted him with a 90-minute documentary cut. The pacing and emotional build were exactly what we needed.",
-      name: "Aarush Mehta",
+      name: "Shubhankar Sahu",
       role: "Founder, Ripple Studios",
     },
   ];
